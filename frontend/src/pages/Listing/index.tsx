@@ -41,6 +41,7 @@ function Listing() {
 
     const handlePageChange = (newPageNumber : number) => {
         setPageNumber(newPageNumber);
+        console.log(movie);
     }
 
     return (
